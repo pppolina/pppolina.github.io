@@ -1,0 +1,39 @@
+
+.project-content{
+
+
+  position: fixed;
+  width: 270px;
+  margin: 50px;
+}
+
+div{
+
+
+	display:block;
+}
+
+.gallery{
+
+    width: 100;
+    position: relative;
+    display: inline-block;
+    top: 50px;
+    left: 100px;
+
+}
+
+gallery, gallery:after, gallery:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.gallery img{
+
+    width: 80vw;
+    margin-right: 1vw;
+    margin-bottom: 2vw;
+    /*padding-right: 20 px;*/
+
+}

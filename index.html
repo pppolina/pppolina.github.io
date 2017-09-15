@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	 <meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Polina Tamarina</title>
+
+	<!-- <link rel="stylesheet" href="bootstrap-3.3.7-dist/bootstrap.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/homepage.css">
+
+</head>
+
+<body>
+	<div class="background">
+
+		<div class="map">
+			<img src="img/flatlay_sample.jpg" class="bg" id="bestmap" alt="image map" usemap="#image_map" width="1500" height="1101" orgWidth="1500" orgHeight="1101">
+
+			<map name="image_map" id="bestmap"> 
+
+				<area id="probweed" alt="" title="probweed" href="http://www.image-maps.com/" shape="poly" coords="122,215,201,234,232,139,214,230,327,169,232,230,362,255,227,256,278,366,213,268,146,350,194,263" style="outline-color:red;" target="_self"  />
+				<area id="phone" alt="" title="phone" href="http://www.image-maps.com/" shape="poly" coords="869,356,983,270,1190,518,1072,617,958,484" style="outline-color:red;" target="_self"     />
+				<area id="coffee" alt="" title="coffee" href="http://www.image-maps.com/" shape="poly" coords="370,604,408,540,433,611,508,659,521,755,461,835,335,837,285,771,297,660" style="outline:none;" target="_self"     />
+
+			</map> 
+
+		</div>
+
+
+
+		<div id="navbar">
+
+
+			<a href="index.html"><h3 class="polina">Polina</h3></a>
+			<ul>
+			  <li>
+				<a href="#"><img class="menu" src="img/menu_icon_skinny.png"></a>
+			      <ul>
+			      	<li><a href="projects/typography.html">Typography</a></li>
+			      	<li><a href="#">Frankenfix</a></li>
+			      	<li><a href="#">Game Design</a></li>
+			      	<li><a href="projects/guastavino.html">Guastavino</a></li>
+			      	<li><a href="projects/athena.html">Trans EMR</a></li>
+			      	<li><a href="projects/sochiatrist.html">Sochiatrist</a></li>
+			      	<li><a href="http://www.home-ness.org/" target="_blank">Homeness</a></li>
+			      	<li><a href="https://spark.adobe.com/page/Bbex7/" target="_blank">Housing@Brown</a></li>
+			      </ul>
+			   </li>
+			  </ul>
+
+		 
+		</div>
+
+
+
+		<!-- <div class="btn-group">
+		  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		    Action <span class="caret"></span>
+		  </button>
+		  <ul class="dropdown-menu">
+		    <li><a href="#">Action</a></li>
+		    <li><a href="#">Another action</a></li>
+		    <li><a href="#">Something else here</a></li>
+		    <li role="separator" class="divider"></li>
+		    <li><a href="#">Separated link</a></li>
+		  </ul>
+		</div> -->
+	 
+	 
+	</div>
+
+
+
+	<!-- javascript + bootstrap -->
+	<!-- jquery -->
+	
+	<!-- responsive image map code -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script> 
+
+	<!-- <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script> -->
+
+	<!-- <script src="js/jQuery-rwdImageMaps.js" type="text/javascript"></script>
+	<script src="js/jQuery-maphilight.js" type="text/javascript"></script>
+	<script src="js/map_rollover.js" type="text/javascript"></script> -->
+
+
+	<script src="js/jquery.rwdImageMaps.min.js" type="text/javascript" ></script>
+<!-- 	<script src="js/jquery.maphilight.min.js" type="text/javascript" ></script>
+ -->	
+	<!-- <script>
+
+		var resizeEvt;
+
+	(function($) {
+
+	    $(document).on('ready.usemaps', function(){
+	        $('img[usemap]').maphilight();
+	        $('img[usemap]').rwdImageMaps();
+	    });
+
+	    $(window).on('resize.usemaps', function(){
+	        clearTimeout(resizeEvt);
+	        resizeEvt = setTimeout(function(){
+	            $('img[usemap]').maphilight();
+	        }, 200);
+	    });
+
+	})(jQuery);
+	</script> -->
+
+
+
+
+	<script> 
+	$(document).ready(function(e) {
+
+	    $('img[usemap]').rwdImageMaps();
+	    // alert ($('img').css("opacity"))
+	    // $('img[usemap]').maphilight({
+     //        fillColor: '008800'
+     //    });
+
+
+
+	});
+	</script>
+
+	
+  
+	
+	<!-- <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script> -->
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script> -->
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script> -->
+</body>
+
+</html>
