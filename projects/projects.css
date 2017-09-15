@@ -78,7 +78,7 @@ body{
 	position:fixed;
 	float:right;
 	display: inline-block;
-	background-color: blue;
+	/*background-color: blue;*/
 	left: 800px;
 	width:50px;
 	height:100%;
