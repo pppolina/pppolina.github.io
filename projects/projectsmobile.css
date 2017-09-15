@@ -142,7 +142,7 @@ body{
 
 @media only screen and (max-width: 740px).gallery {
     width: 37vw;
-    background-color: red;
+    /*background-color: red;*/
 }
 @media only screen and (max-width: 880px).gallery {
     width: 40vw;
