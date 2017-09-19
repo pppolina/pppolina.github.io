@@ -32,11 +32,11 @@
 a{
 
 	text-decoration: none;
-	color:black;
+	color:#f2e4e2;
 }
 
 .link:hover {
-    color: #f2e4e2;
+    color: black;
 }
 
 
