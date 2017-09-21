@@ -96,6 +96,26 @@
 	<img src="../img/evoltype9.png" alt="HTML5 Icon"> -->
 </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script> 
+
+
+<script> 
+
+function resize() {
+    if ($(window).width() < 1024) {
+     $(".box3").hide();
+     // $('*').removeClass('box1');
+     // $('.box1').addClass('box11');
+    }
+    else {$(".box3").show();}
+}
+
+$(document).ready( function() {
+    $(window).resize(resize);
+    resize();
+});
+	</script>
+
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
 </body>
 

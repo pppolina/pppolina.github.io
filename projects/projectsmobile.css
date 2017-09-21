@@ -138,15 +138,35 @@ body{
 
 }
 
- .box1, .box2, .box3{
+ .box1, .box2{
 
   position: relative;
-  width: 30.33333%;
+  width: 50%;
   float: left;
-  margin: 0.5%;
+  /*margin: 0.5%;*/
   display:inline-block;
  /* background-color: white;*/
 }
+
+/*.box1.mobile{
+
+  position: relative;
+  width: 50%;
+  float: left;
+  margin: 0.5%;
+  display:inline-block;
+ 
+}
+
+.box22{
+
+  position: relative;
+  width: 50%;
+  float: left;
+  margin: 0.5%;
+  display:inline-block;
+ 
+}*/
 
 
 @media only screen and (max-width: 740px).gallery {
