@@ -2,7 +2,7 @@
 
   position: relative;
   align-self: center;
-  width: 70vw;
+  width: 90vw;
 
 
 }
@@ -18,9 +18,9 @@
 
 .about-me-body {
     
-    top: 8vw;
+    top: 5vw;
     width: 100vw;
-    height: 50vw;
+    /*height: 50vw;*/
 
     position: relative;
  
@@ -59,8 +59,8 @@
 .contact-icons{
 
   position: absolute;
-  left: 63.5vw;
-  top: 37vw;
+  left: 68vw;
+  top: 47vw;
 }
 
 
