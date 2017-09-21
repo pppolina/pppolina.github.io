@@ -31,12 +31,12 @@
 
 a{
 
-	text-decoration: none;
-	color:#f2e4e2;
+	text-decoration: underline;
+	color:black;
 }
 
 .link:hover {
-    color: black;
+    color: #f2e4e2;
 }
 
 
