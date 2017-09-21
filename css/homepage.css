@@ -1,3 +1,116 @@
+.about-me-img{
+
+  position: relative;
+  align-self: center;
+  width: 70vw;
+
+
+}
+
+.about-me-body {
+    
+    top: 8vw;
+    width: 100vw;
+    height: 50vw;
+    
+    position: relative;
+ 
+  /*background-color: blue;*/
+  align-self: center;
+  margin: auto;
+  text-align: center;
+}
+
+.about-me-header {
+    
+    font-family: Hiruko-BlackAlternate, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    /*width: 75vw;*/
+    position: relative;
+    display:inline-block;
+    color: #f2e4e2;
+}
+
+
+
+.about-me-text {
+    font-family: Baskerville, serif;
+    font-size: 15px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    width: 400px;
+    position: relative;
+    display: inline-block;
+}
+
+.contact-icons{
+
+  position: absolute;
+  left: 62vw;
+  top: 38.5vw;
+}
+
+
+.contact-icons img{
+
+  width: 25px;
+  height: 25px;
+  padding: 1vw;
+  display: inline-block;
+  margin: 7px;
+  margin-top: 8px;
+  opacity: .65;
+
+}
+
+.contact-icons img:hover {
+  opacity: 1;
+}
+
+
+
+.close {
+  position: fixed;
+  right: 32px;
+  top: 32px;
+  margin-top: 10px;
+  width: 32px;
+  height: 32px;
+  opacity: 1;
+  z-index: 999;
+}
+.close:hover {
+  opacity: .5;
+}
+
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+a{
+
+  text-decoration: none;
+  color: #f2e4e2;
+}
+
+.link:hover {
+    color: black;
+}
 
 
 .big-text {
