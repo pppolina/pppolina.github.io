@@ -8,9 +8,19 @@
 
 }
 
+.about-me-img-mobile{
+
+  position: relative;
+  align-self: center;
+  width: 70vw;
+  left: 15vw;
+
+
+}
+
 .about-me-body {
     
-    top: 8vw;
+    top: 20vw;
     width: 100vw;
     height: 50vw;
     
@@ -51,19 +61,19 @@
 .contact-icons{
 
   position: absolute;
-  left: 48vw;
-  top: 36vw;
+  left: 30vw;
+  top: 65vw;
 }
 
 
 .contact-icons img{
 
-  width: 25px;
-  height: 25px;
-  padding: 1vw;
+  width: 4vw;
+  height: 4vw;
+  padding: 2vw;
   display: inline-block;
-  margin: 7px;
-  margin-top: 8px;
+  margin: .5vw;
+  margin-top: .5vw;
   opacity: .65;
 
 }

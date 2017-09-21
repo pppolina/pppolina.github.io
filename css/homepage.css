@@ -7,6 +7,15 @@
 
 }
 
+.about-me-img-mobile{
+
+  position: relative;
+  align-self: center;
+  width: 70vw;
+
+
+}
+
 .about-me-body {
     
     top: 8vw;
