@@ -89,7 +89,8 @@ body{
 /*}*/
 
 .project-header {
-    font-family: Hiruko, sans-serif;
+    
+    font-family: Hiruko-BlackAlternate, sans-serif;
     font-size: 25px;
     text-align: center;
     font-style: normal;
