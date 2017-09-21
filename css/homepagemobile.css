@@ -12,15 +12,15 @@
 
   position: relative;
   align-self: center;
-  width: 70vw;
-  left: 15vw;
+  width: 90vw;
+  left: 7vw;
 
 
 }
 
 .about-me-body {
     
-    top: 20vw;
+    top: 10vw;
     width: 100vw;
     height: 50vw;
     
@@ -62,7 +62,7 @@
 
   position: absolute;
   left: 30vw;
-  top: 65vw;
+  top: 83vw;
 }
 
 
