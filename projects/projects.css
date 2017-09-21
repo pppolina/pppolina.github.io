@@ -149,6 +149,7 @@ body{
     font-style: normal;
     font-weight: normal;
     width: 240px;
+    
 }
 
 #bold {
@@ -157,6 +158,8 @@ body{
     font-style: italic;
     font-weight: bold;
 }
+
+
 
 .gallery{
 
