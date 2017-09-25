@@ -8,7 +8,7 @@
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 95px;
-    background-color: background-color: rgba(255, 255, 255, .6);
+    background-color: rgba(255, 255, 255, .6);
     /*color: #fff;*/
     text-align: center;
     border-radius: 6px;
