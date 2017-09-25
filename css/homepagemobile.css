@@ -179,7 +179,7 @@ a{
 
 
 .big-text {
-    font-family: Hiruko-BlackAlternate, sans-serif;
+    font-family: 'Hiruko-BlackAlternate', sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 900;
@@ -188,7 +188,7 @@ a{
 }
 
 .medium-text {
-    font-family: Hiruko-BlackAlternate, sans-serif;
+    font-family: 'Hiruko-BlackAlternate', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
