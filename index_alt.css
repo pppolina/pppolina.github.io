@@ -1,0 +1,15 @@
+#probweed: hover {
+
+
+
+	/*background: url("https://imgflip.com/gif/229f6r");*/
+	background: url("img/type.png");
+	z-index: 1;
+
+}
+
+canvas
+{
+    pointer-events: none;       /* make the canvas transparent to the mouse - needed since canvas is position infront of image */
+    position: absolute;
+}
